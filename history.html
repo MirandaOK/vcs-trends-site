@@ -1,49 +1,56 @@
+<!DOCTYPE html>
 <html>
     <head>
-      <title>History</title>
+      <title>VCS History</title>
     </head>
     <!--This is main part of the doc-->
     <body>
     <h1>History of VCS</h1>
 
-     <p>Navigation</p>
+     <p><b>Navigation</b></p>
+    
         <ol>
-            <li><a href="index.html" >Go back</a></li>
-                <li><a href="trends.html" >Go further to modern trends</a></li>
+            <li><a href="trends.html" >Go further to modern trends site</a></li>
+            <li><a href="index.html" >Go back to home site</a></li>
         </ol>
+
     
 
-    <b>Important Dates</b>
+    <h3>VCS evolution</h3>
     <ol>
-        <li>1972: Source Code Control System (SCCS)</li>
-        <li>1982: Revision Control System (RCS)</li>
-        <li>1986: Concurrent Versions System (CVS)</li>
-        <li>2000: Subversion (SVN)</li>
-        <li>2005: Git and Mercurial</li>
-        <li>2008: GitHub launched</li>
+        <li>1972: Development of the Source Code Control System (SCCS)</li>
+        <li>1982: Initial release of the Revision Control System (RCS)</li>
+        <li>1986: Initial release of the Concurrent Versions System (CVS)</li>
+        <li>2000: Initial release of the Subversion (SVN)</li>
+        <li>2005: Initial release of the Git and Mercurial</li>
+        <li>2008: Launch of the GitHub</li>
         <li>2010s: Wide adoption of Git and migration from older systems</li>
         <li>Late 2010s: GitOps and modern practices</li>
         <li>2020s: AI and large-scale collaboration</li>
     
     </ol>
 <p></p>
-<p><b>Version control systems can be centralized or distributed:</b></p>
+<h3>Version control systems can be centralized or distributed:</h3>
 
-<p><b>Centralized Version Control (CVCS)</b> - centralized tools are for example RCS, CVS and Subversion.</p>
-<p><b>Distributed Version Control (DVCS)</b> - distributed tools are for example Git or Mercurial.</p>
+<ul>
+    <li><p><b>Centralized Version Control (CVCS)</b> - the repository is located on a single, master server. Commits require connection to the master server. Centralized tools are for example RCS, CVS and Subversion. </p></li>
+    <li><p><b>Distributed Version Control (DVCS)</b> - devs have their own repositories. Commits can be done offline and later pushed to share with others. Distributed tools are for example Git or Mercurial.</p></li>
+</ul>
 
-<p><b>Use of the tools:</b></p>
-    <ol>
-        <li>RCS (Revision Control System) - mostly small projects</li>
-        <li>CVS (Concurrent Versions System) - small to medium team projects</li>
-        <li>Subversion (SVN) - </li>
-        <li>Git - any scale projects</li>
-        <li>Mercurial - any scale projects</li>
+<p>Distributed VCS was a game-changer because it allowed developers to work asynchronously and allow collaboration at a very huge scale (eg. Git).</p>
+
+
+<h3>Use of the tools:</h3>
+    <ul>
+        <li>RCS (Revision Control System) - mostly used for simple, small projects, it's not meant for collaborative network use. </li>
+        <li>CVS (Concurrent Versions System) - small to medium team projects, currently, not used much by teams due to several problems like weak branching/merging support.</li>
+        <li>Subversion (SVN) - was very popular in 2006, however it was difficult to use for very large teams.</li>
+        <li>Git - any scale projects, today it's very popular thanks to its great performance and flexibility, it works very well for source projects and DevOps workflows and provides extremely fast branching and merging.</li>
+        <li>Mercurial - any scale projects, although it's efficient and user-friendly it didn't get as popular as Git, partially because initially GitHub didn't supported it.</li>
     
-    </ol>
+    </ul>
 
    
-
 
     </body>
 </html>
